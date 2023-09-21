@@ -1,5 +1,5 @@
 public class CruiseShip extends Ship {
-    int maxPass;
+    private int maxPass;
 
     public void setMaxPass(int maxPass) {
         this.maxPass = maxPass;
