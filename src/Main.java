@@ -8,6 +8,7 @@ public class Main {
         CruiseShip CruiseBoat = new CruiseShip();
         CargoShip CargoBoat = new CargoShip();
         Scanner keyboard = new Scanner(System.in);
+        System.out.println(CargoBoat.getShipName());
 
         System.out.println("Please enter the data for a generic ship." +
                 "\nWhat is the Ship's Name?");
@@ -28,10 +29,10 @@ public class Main {
         System.out.println("Please enter the data for a Cargo Ship" +
                 "\nWhat is the Ship's name?");
         CargoBoat.setShipName(keyboard.nextLine());
-        keyboard.nextLine();
+        if(CargoBoat.getShipName() != null){
         System.out.println("What is the maximum tonnage it can carry?");
         CargoBoat.setMaxTonnage(keyboard.nextInt());
-        arr.add(CargoBoat);
+        arr.add(CargoBoat);}
 
         for (int i=0; i<arr.size(); i++) {
             String curr = arr.get(i).toString();

@@ -1,6 +1,6 @@
 public class Ship {
-    private String ShipName = "Default";
-   private String ShipBuild = "unknown";
+    private String ShipName = null;
+   private String ShipBuild = null;
 
     public void setShipName(String Sname){
         ShipName = Sname;
