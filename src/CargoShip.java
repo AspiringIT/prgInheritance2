@@ -8,4 +8,11 @@ public class CargoShip extends Ship {
     public int getMaxTonnage() {
         return maxTonnage;
     }
+
+    @Override
+    public String toString() {
+    System.out.println("The Ship's name is: " + getShipName() +
+            "\nThe maximum cargo capacity is: " + getMaxTonnage() + " Tonnes");
+        return null;
+    }
 }

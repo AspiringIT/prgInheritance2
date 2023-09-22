@@ -1,6 +1,6 @@
 public class Ship {
-    private String ShipName;
-   private String ShipBuild;
+    private String ShipName = "Solaris";
+   private String ShipBuild = "2023";
 
     public void setShipName(String Sname){
         ShipName = Sname;

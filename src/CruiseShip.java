@@ -1,5 +1,5 @@
 public class CruiseShip extends Ship {
-    private int maxPass;
+    private int maxPass = 3000;
 
     public void setMaxPass(int maxPass) {
         this.maxPass = maxPass;
@@ -14,7 +14,7 @@ public class CruiseShip extends Ship {
         System.out.println("The Ship's name is " + getShipName() +
                 "\nThe Maximum Passenger Capacity is: " + getmaxPass());
 
-        return null;
+        return "";
     }
 
 
