@@ -18,7 +18,13 @@ public class Main {
 
         System.out.println("Please enter the data for a Cruise Ship" +
                 "\nWhat is the maximum passenger capacity?");
-        CargoBoat.setMaxPass(keyboard.nextInt());
+        CruiseBoat.setMaxPass(keyboard.nextInt());
+        arr.add(CruiseBoat);
+
+        System.out.println("Please enter the data for a Cargo Ship" +
+                "\nWhat is the maximum tonnage it can carry?");
+        CargoBoat.setMaxTonnage(keyboard.nextInt());
+        arr.add(CargoBoat);
 
 
 
