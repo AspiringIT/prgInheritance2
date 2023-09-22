@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Please enter the data for a Cargo Ship" +
                 "\nWhat is the Ship's name?");
         CargoBoat.setShipName(keyboard.nextLine());
-
+        keyboard.nextLine();
         System.out.println("What is the maximum tonnage it can carry?");
         CargoBoat.setMaxTonnage(keyboard.nextInt());
         arr.add(CargoBoat);
