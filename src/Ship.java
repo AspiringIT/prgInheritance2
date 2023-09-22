@@ -21,6 +21,6 @@ public class Ship {
 
     public String toString(){
         System.out.println("The Ship's name is: "+ ShipName + "The Ship was built on: " + ShipBuild);
-        return null;
+        return "";
     }
 }
